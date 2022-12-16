@@ -1,4 +1,5 @@
 import React from 'react'
+import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Topbar = () => {
   return (
@@ -14,6 +15,8 @@ const Topbar = () => {
                 <li><a href="#">login</a></li>
             </ul>
         </nav>
+
+      <GiHamburgerMenu className="menu" />
 
 
     </header>

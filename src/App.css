@@ -66,3 +66,60 @@ header{
 .navbar ul li a:hover{
   color: var(--blue);
 }
+
+header .menu{
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1000;
+  display: none;
+}
+
+
+
+
+@media (max-width:768px) {
+  html{
+    font-size: 55%;
+  }
+  header .menu{
+    display: block;
+  }
+
+  .navbar{
+    position: fixed;
+    top: 0;
+    left: -120%;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, .8);
+    z-index: 100;
+  }
+
+  .navbar ul{
+    height: 100%;
+    width: 35rem;
+    background: var(--black);
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  .navbar ul li{
+    margin: 2rem 0;
+
+  }
+
+  .navbar ul li a{
+    font-size: 3rem;
+
+  }
+}
+
+/* @media (max-width:450px){
+  html{
+  font-size: 50%;
+  }
+  header .menu{
+     display: block;
+  }
+} */
