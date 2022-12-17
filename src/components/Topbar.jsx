@@ -10,7 +10,7 @@ const Topbar = () => {
         <a href="#" className='logo'><h1>logo</h1></a>
 
         <nav className="navbar">
-            <ul>                   
+            <ul className={show ? "rilo" : "ul"}>                   
                 <li><a href="#">home</a></li>
                 <li><a href="#">about</a></li>
                 <li><a href="#">contact</a></li>
