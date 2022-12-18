@@ -1,4 +1,5 @@
 import './App.css'
+import Home from './components/home'
 import Topbar from './components/Topbar'
 
 function App() {
@@ -6,6 +7,8 @@ function App() {
   return (
     <div className="App">
       <Topbar/>
+      <Home/>
+
     </div>
   )
 }

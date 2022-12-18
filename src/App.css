@@ -86,31 +86,7 @@ header .menu{
     display: block;
   }
 
-
   .navbar{
-    position: absolute;
-    top: 110%; right: 2rem;
-    width: 30rem;
-    box-shadow: var(--box-shadow);
-    border-radius: .5rem;
-    overflow: hidden;
-  }
-
-  /* .navbar .rilo {
-    position: absolute;
-    top: 110%; right: 2rem;
-    width: 30rem;
-    box-shadow: var(--box-shadow);
-    border-radius: .5rem;
-    background: #fff;
-    overflow: hidden;
-  } */
-
-
-
-
-
-  /* .navbar{
     position: fixed;
     top: 0;
     left: 0;
@@ -118,8 +94,7 @@ header .menu{
     width: 100vw;
     background: rgba(0, 0, 0, .8);
     z-index: 100;
-    
-  } */
+  }
 
   .navbar .rilo{
     height: 100%;
