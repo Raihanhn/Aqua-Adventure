@@ -1,4 +1,7 @@
 import React from 'react'
+import { AiFillFacebook } from "react-icons/ai";
+import { AiFillTwitterSquare } from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
 
 const Home = () => {
   return (
@@ -9,9 +12,9 @@ const Home = () => {
             <a href="#"><button>join now</button></a>
 
             <div className="icons">
-                <a href="#">fb</a>
-                <a href="#">twitt</a>
-                <a href="#">insta</a>
+                <a href="#"><AiFillFacebook/></a>
+                <a href="#"><AiFillTwitterSquare/></a>
+                <a href="#"><AiFillInstagram/></a>
             </div>
         </div>
     </div>

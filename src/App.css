@@ -75,6 +75,63 @@ header .menu{
   display: none;
 }
 
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .content{
+  text-align: center;
+  text-shadow: var(--text-shadow);
+}
+
+.container .content h1{
+  font-size: 9rem;
+  color: var(--blue);
+}
+
+.container .content h2{
+  font-size: 7rem;
+  color: #fff;
+}
+
+.container .content button{
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  height: 4rem;
+  width: 15rem;
+  background: var(--blue);
+  cursor: pointer;
+  font-size: 1.8rem;
+  color: #fff;
+  box-shadow: var(--box-shadow);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -87,31 +144,25 @@ header .menu{
   }
 
   .navbar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background: rgba(0, 0, 0, .8);
-    z-index: 100;
+    position: absolute;
+    margin-left: 20rem;
   }
 
   .navbar .rilo{
-    height: 100%;
-    width: 35rem;
     background: var(--black);
     flex-flow: column;
     justify-content: center;
+    margin-top: 45rem;
+    width: 35rem;
+    margin-right: 40rem;
   }
 
   .navbar ul li{
     margin: 2rem 0;
-
   }
 
   .navbar ul li a{
     font-size: 3rem;
-
   }
 }
 
