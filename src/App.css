@@ -81,6 +81,8 @@ header .menu{
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .container .content{
@@ -110,6 +112,41 @@ header .menu{
   color: #fff;
   box-shadow: var(--box-shadow);
 }
+
+.container .content button:hover{
+  background: var(--black);
+  letter-spacing: .2rem;
+}
+
+.container .content .icons{
+  margin-top: 3rem;
+}
+
+.container .content .icons a{
+  height: 4rem;
+  line-height: 4rem;
+  width: 4rem;
+  border-radius: .5rem;
+  font-size: 3.5rem;
+  color: #fff;
+  margin-left: .4rem;
+  background: var(--blue);
+  text-align: center;
+}
+
+.container .video-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+
+
+
+
 
 
 

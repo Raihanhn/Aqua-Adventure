@@ -1,4 +1,9 @@
 import React from 'react'
+
+import video1 from "../../src/assets/video/v1.mp4"
+import video2 from "../../src/assets/video/v2.mp4"
+import video3 from "../../src/assets/video/v3.mp4"
+
 import { AiFillFacebook } from "react-icons/ai";
 import { AiFillTwitterSquare } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
@@ -12,11 +17,19 @@ const Home = () => {
             <a href="#"><button>join now</button></a>
 
             <div className="icons">
-                <a href="#"><AiFillFacebook/></a>
-                <a href="#"><AiFillTwitterSquare/></a>
-                <a href="#"><AiFillInstagram/></a>
+                <a href="#"><AiFillFacebook className='icon' /></a>
+                <a href="#"><AiFillTwitterSquare className='icon' /></a>
+                <a href="#"><AiFillInstagram className='icon' /></a>
             </div>
         </div>
+
+        <div className="video-container">
+            <video src={video1} muted autoPlay type="video/mp4" />
+            <video src={video2} muted autoPlay type="video/mp4" />
+            <video src={video3} muted autoPlay type="video/mp4" />
+        </div>
+
+
     </div>
   )
 }
