@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 import video1 from "../../src/assets/video/v1.mp4"
 import video2 from "../../src/assets/video/v2.mp4"
 import video3 from "../../src/assets/video/v3.mp4"
@@ -24,9 +26,7 @@ const Home = () => {
         </div>
 
         <div className="video-container">
-            <video src={video1} muted autoPlay type="video/mp4" />
-            <video src={video2} muted autoPlay type="video/mp4" />
-            <video src={video3} muted autoPlay type="video/mp4" />
+        <video src={video1} muted autoPlay loop type="video/mp4" />
         </div>
 
 
