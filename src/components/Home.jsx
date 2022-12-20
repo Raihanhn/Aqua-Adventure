@@ -1,10 +1,6 @@
 import React from 'react'
 
-
-
 import video1 from "../../src/assets/video/v1.mp4"
-import video2 from "../../src/assets/video/v2.mp4"
-import video3 from "../../src/assets/video/v3.mp4"
 
 import { AiFillFacebook } from "react-icons/ai";
 import { AiFillTwitterSquare } from "react-icons/ai";
